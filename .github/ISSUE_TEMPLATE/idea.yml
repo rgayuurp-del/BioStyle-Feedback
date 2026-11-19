@@ -1,0 +1,16 @@
+name: 玩法建议
+description: 分享招式、套路、操作手感或界面的改进想法。
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你希望怎样改？
+      placeholder: 可以从一次具体的游戏体验说起。
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 哪个场景最需要这个改动？（选填）
+      placeholder: 例如，持武器连续切换套路时，希望更容易看清当前架势。
