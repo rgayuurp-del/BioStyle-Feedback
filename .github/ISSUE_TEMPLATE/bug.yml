@@ -1,0 +1,23 @@
+name: 报告问题
+description: 描述操作和遇到的异常，方便复现。
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 刚才做了什么？
+      placeholder: 例如，拿着步枪后闪，再按前进。偶尔发生也可以报。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 游戏里发生了什么？
+      placeholder: 例如，闪避动作结束了，角色仍然走不动。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 还有哪些线索？（选填）
+      description: 可以补充游戏版本、单机或联机、手持武器、同时启用的模组，或附上截图和相关日志片段。公开提交前请遮去私人信息。
