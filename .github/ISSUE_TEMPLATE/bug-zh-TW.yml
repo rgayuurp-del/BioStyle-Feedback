@@ -1,0 +1,25 @@
+name: "回報問題（繁體中文）"
+description: "說明操作步驟和遇到的異常。"
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: "剛才做了什麼？"
+      description: "例如，拿著步槍向後閃避，再按前進。偶爾發生也可以回報。"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: "遊戲裡發生了什麼？"
+      description: "例如，閃避動作結束了，角色仍然無法移動。"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "其他線索（選填）"
+      description: "可以補充遊戲與模組版本、單人或多人模式、手持武器、其他模組、截圖或相關日誌片段。公開前請遮蔽私人資訊。"
+    validations:
+      required: false

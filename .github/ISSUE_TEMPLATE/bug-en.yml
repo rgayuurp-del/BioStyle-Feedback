@@ -1,0 +1,25 @@
+name: "Bug Report (English)"
+description: "Report a reproducible problem or an occasional glitch."
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: "What did you do?"
+      description: "For example, dodge backward with a rifle and then try to move forward."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: "What happened in-game?"
+      description: "For example, the dodge ended but the character could not move."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional details (optional)"
+      description: "Game and mod versions, single-player or multiplayer, held weapon, other mods, screenshots, or relevant log excerpts. Remove private information before posting."
+    validations:
+      required: false
